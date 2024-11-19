@@ -1,10 +1,18 @@
 extends Node2D
 
 var input = ""
+var scrollCount = 0
+
 var defined = false
-var timer = false
 var spaces = false
+
+var timer = false
 var initialTimer = false
+var returnTimer = false
+
+@export var scrollDelay = 0.2
+@export var initialDelay = 1.0
+@export var returnDelay = 1.0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -12,7 +20,7 @@ func _ready() -> void:
 
 func update_display():
 	if not defined:
-		input = "Yo waddup"
+		input = "Yo waddup, this is my ultimate super omega text."
 		var lastInput = input
 		defined = true
 	#if defined == true: # code that was supposed to change the text if the original text changed
@@ -28,6 +36,7 @@ func scroll():
 			input += "     "
 			spaces = true
 		input = input.substr(1, input.length() - 1) + input[0]
+		scrollCount += 1
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -41,11 +50,19 @@ func _process(delta: float) -> void:
 			else:
 				block.value = " "
 	update_display()
-	if initialTimer == false:
-		await get_tree().create_timer(1.25).timeout
+	
+	if not initialTimer:
+		await get_tree().create_timer(initialDelay).timeout
 		initialTimer = true
-	if timer == false:
+	if not returnTimer and scrollCount >= input.length():
+		returnTimer = true
+		await get_tree().create_timer(returnDelay).timeout
+		scrollCount = 0
+		returnTimer = false
+	if not timer:
 		timer = true
-		await get_tree().create_timer(0.3).timeout
+		await get_tree().create_timer(scrollDelay).timeout
 		timer = false
-	scroll()
+		
+	if not returnTimer:
+		scroll()

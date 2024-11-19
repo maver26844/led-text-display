@@ -17,5 +17,5 @@ config/icon="res://icon.png"
 
 [display]
 
-window/size/viewport_width=1200
-window/size/viewport_height=156
+window/size/viewport_width=1158
+window/size/viewport_height=90

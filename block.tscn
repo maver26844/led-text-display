@@ -8,209 +8,239 @@ script = ExtResource("1_2vsev")
 [node name="1" type="ColorRect" parent="."]
 offset_left = 12.0
 offset_top = 12.0
-offset_right = 24.0
-offset_bottom = 24.0
+offset_right = 18.0
+offset_bottom = 18.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="2" type="ColorRect" parent="."]
 offset_left = 12.0
-offset_top = 36.0
-offset_right = 24.0
-offset_bottom = 48.0
+offset_top = 24.0
+offset_right = 18.0
+offset_bottom = 30.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="3" type="ColorRect" parent="."]
 offset_left = 12.0
-offset_top = 60.0
-offset_right = 24.0
-offset_bottom = 72.0
+offset_top = 36.0
+offset_right = 18.0
+offset_bottom = 42.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="4" type="ColorRect" parent="."]
 offset_left = 12.0
-offset_top = 84.0
-offset_right = 24.0
-offset_bottom = 96.0
+offset_top = 48.0
+offset_right = 18.0
+offset_bottom = 54.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="5" type="ColorRect" parent="."]
 offset_left = 12.0
-offset_top = 108.0
-offset_right = 24.0
-offset_bottom = 120.0
+offset_top = 60.0
+offset_right = 18.0
+offset_bottom = 66.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="6" type="ColorRect" parent="."]
 offset_left = 12.0
-offset_top = 132.0
-offset_right = 24.0
-offset_bottom = 144.0
+offset_top = 72.0
+offset_right = 18.0
+offset_bottom = 78.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="7" type="ColorRect" parent="."]
-offset_left = 36.0
+offset_left = 24.0
 offset_top = 12.0
-offset_right = 48.0
-offset_bottom = 24.0
+offset_right = 30.0
+offset_bottom = 18.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="8" type="ColorRect" parent="."]
-offset_left = 36.0
-offset_top = 36.0
-offset_right = 48.0
-offset_bottom = 48.0
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 30.0
+offset_bottom = 30.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="9" type="ColorRect" parent="."]
-offset_left = 36.0
-offset_top = 60.0
-offset_right = 48.0
-offset_bottom = 72.0
+offset_left = 24.0
+offset_top = 36.0
+offset_right = 30.0
+offset_bottom = 42.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="10" type="ColorRect" parent="."]
-offset_left = 36.0
-offset_top = 84.0
-offset_right = 48.0
-offset_bottom = 96.0
+offset_left = 24.0
+offset_top = 48.0
+offset_right = 30.0
+offset_bottom = 54.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="11" type="ColorRect" parent="."]
-offset_left = 36.0
-offset_top = 108.0
-offset_right = 48.0
-offset_bottom = 120.0
+offset_left = 24.0
+offset_top = 60.0
+offset_right = 30.0
+offset_bottom = 66.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="12" type="ColorRect" parent="."]
-offset_left = 36.0
-offset_top = 132.0
-offset_right = 48.0
-offset_bottom = 144.0
+offset_left = 24.0
+offset_top = 72.0
+offset_right = 30.0
+offset_bottom = 78.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="13" type="ColorRect" parent="."]
-offset_left = 60.0
+offset_left = 36.0
 offset_top = 12.0
-offset_right = 72.0
-offset_bottom = 24.0
+offset_right = 42.0
+offset_bottom = 18.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="14" type="ColorRect" parent="."]
-offset_left = 60.0
-offset_top = 36.0
-offset_right = 72.0
-offset_bottom = 48.0
+offset_left = 36.0
+offset_top = 24.0
+offset_right = 42.0
+offset_bottom = 30.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="15" type="ColorRect" parent="."]
-offset_left = 60.0
-offset_top = 60.0
-offset_right = 72.0
-offset_bottom = 72.0
+offset_left = 36.0
+offset_top = 36.0
+offset_right = 42.0
+offset_bottom = 42.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="16" type="ColorRect" parent="."]
-offset_left = 60.0
-offset_top = 84.0
-offset_right = 72.0
-offset_bottom = 96.0
+offset_left = 36.0
+offset_top = 48.0
+offset_right = 42.0
+offset_bottom = 54.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="17" type="ColorRect" parent="."]
-offset_left = 60.0
-offset_top = 108.0
-offset_right = 72.0
-offset_bottom = 120.0
+offset_left = 36.0
+offset_top = 60.0
+offset_right = 42.0
+offset_bottom = 66.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="18" type="ColorRect" parent="."]
-offset_left = 60.0
-offset_top = 132.0
-offset_right = 72.0
-offset_bottom = 144.0
+offset_left = 36.0
+offset_top = 72.0
+offset_right = 42.0
+offset_bottom = 78.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="19" type="ColorRect" parent="."]
-offset_left = 84.0
+offset_left = 48.0
 offset_top = 12.0
-offset_right = 96.0
-offset_bottom = 24.0
+offset_right = 54.0
+offset_bottom = 18.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="20" type="ColorRect" parent="."]
-offset_left = 84.0
-offset_top = 36.0
-offset_right = 96.0
-offset_bottom = 48.0
+offset_left = 48.0
+offset_top = 24.0
+offset_right = 54.0
+offset_bottom = 30.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="21" type="ColorRect" parent="."]
-offset_left = 84.0
-offset_top = 60.0
-offset_right = 96.0
-offset_bottom = 72.0
+offset_left = 48.0
+offset_top = 36.0
+offset_right = 54.0
+offset_bottom = 42.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="22" type="ColorRect" parent="."]
-offset_left = 84.0
-offset_top = 84.0
-offset_right = 96.0
-offset_bottom = 96.0
+offset_left = 48.0
+offset_top = 48.0
+offset_right = 54.0
+offset_bottom = 54.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="23" type="ColorRect" parent="."]
-offset_left = 84.0
-offset_top = 108.0
-offset_right = 96.0
-offset_bottom = 120.0
+offset_left = 48.0
+offset_top = 60.0
+offset_right = 54.0
+offset_bottom = 66.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="24" type="ColorRect" parent="."]
-offset_left = 84.0
-offset_top = 132.0
-offset_right = 96.0
-offset_bottom = 144.0
+offset_left = 48.0
+offset_top = 72.0
+offset_right = 54.0
+offset_bottom = 78.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="25" type="ColorRect" parent="."]
-offset_left = 108.0
+offset_left = 60.0
 offset_top = 12.0
-offset_right = 120.0
-offset_bottom = 24.0
+offset_right = 66.0
+offset_bottom = 18.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="26" type="ColorRect" parent="."]
-offset_left = 108.0
-offset_top = 36.0
-offset_right = 120.0
-offset_bottom = 48.0
+offset_left = 60.0
+offset_top = 24.0
+offset_right = 66.0
+offset_bottom = 30.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="27" type="ColorRect" parent="."]
-offset_left = 108.0
-offset_top = 60.0
-offset_right = 120.0
-offset_bottom = 72.0
+offset_left = 60.0
+offset_top = 36.0
+offset_right = 66.0
+offset_bottom = 42.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="28" type="ColorRect" parent="."]
-offset_left = 108.0
-offset_top = 84.0
-offset_right = 120.0
-offset_bottom = 96.0
+offset_left = 60.0
+offset_top = 48.0
+offset_right = 66.0
+offset_bottom = 54.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="29" type="ColorRect" parent="."]
-offset_left = 108.0
-offset_top = 108.0
-offset_right = 120.0
-offset_bottom = 120.0
+offset_left = 60.0
+offset_top = 60.0
+offset_right = 66.0
+offset_bottom = 66.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="30" type="ColorRect" parent="."]
-offset_left = 108.0
-offset_top = 132.0
-offset_right = 120.0
-offset_bottom = 144.0
+offset_left = 60.0
+offset_top = 72.0
+offset_right = 66.0
+offset_bottom = 78.0
 color = Color(0, 0.172549, 0, 1)
+metadata/_edit_use_anchors_ = true

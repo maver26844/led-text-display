@@ -16,22 +16,46 @@ script = ExtResource("1_qxcns")
 [node name="Block1" parent="Bar" instance=ExtResource("1_gosk3")]
 
 [node name="Block2" parent="Bar" instance=ExtResource("1_gosk3")]
-position = Vector2(148, 0)
+position = Vector2(72, 0)
 
 [node name="Block3" parent="Bar" instance=ExtResource("1_gosk3")]
-position = Vector2(296, 0)
+position = Vector2(144, 0)
 
 [node name="Block4" parent="Bar" instance=ExtResource("1_gosk3")]
-position = Vector2(444, 0)
+position = Vector2(216, 0)
 
 [node name="Block5" parent="Bar" instance=ExtResource("1_gosk3")]
-position = Vector2(592, 0)
+position = Vector2(288, 0)
 
 [node name="Block6" parent="Bar" instance=ExtResource("1_gosk3")]
-position = Vector2(740, 0)
+position = Vector2(360, 0)
 
 [node name="Block7" parent="Bar" instance=ExtResource("1_gosk3")]
-position = Vector2(888, 0)
+position = Vector2(432, 0)
 
 [node name="Block8" parent="Bar" instance=ExtResource("1_gosk3")]
-position = Vector2(1036, 0)
+position = Vector2(504, 0)
+
+[node name="Block9" parent="Bar" instance=ExtResource("1_gosk3")]
+position = Vector2(576, 0)
+
+[node name="Block10" parent="Bar" instance=ExtResource("1_gosk3")]
+position = Vector2(648, 0)
+
+[node name="Block11" parent="Bar" instance=ExtResource("1_gosk3")]
+position = Vector2(720, 0)
+
+[node name="Block12" parent="Bar" instance=ExtResource("1_gosk3")]
+position = Vector2(792, 0)
+
+[node name="Block13" parent="Bar" instance=ExtResource("1_gosk3")]
+position = Vector2(864, 0)
+
+[node name="Block14" parent="Bar" instance=ExtResource("1_gosk3")]
+position = Vector2(936, 0)
+
+[node name="Block15" parent="Bar" instance=ExtResource("1_gosk3")]
+position = Vector2(1008, 0)
+
+[node name="Block16" parent="Bar" instance=ExtResource("1_gosk3")]
+position = Vector2(1080, 0)
