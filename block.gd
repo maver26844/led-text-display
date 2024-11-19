@@ -360,167 +360,167 @@ func _process(delta: float) -> void:
 		DA.color = f; DB.color = t; DC.color = t; DD.color = f; DE.color = f; DF.color = t
 		EA.color = f; EB.color = t; EC.color = f; ED.color = f; EE.color = f; EF.color = t
 	if value == "0":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = t; AC.color = t; AD.color = t; AE.color = t; AF.color = f
+		BA.color = t; BB.color = f; BC.color = f; BD.color = f; BE.color = t; BF.color = t
+		CA.color = t; CB.color = f; CC.color = t; CD.color = t; CE.color = f; CF.color = t
+		DA.color = t; DB.color = t; DC.color = f; DD.color = f; DE.color = f; DF.color = t
+		EA.color = f; EB.color = t; EC.color = t; ED.color = t; EE.color = t; EF.color = f
 	if value == "1":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		BA.color = f; BB.color = t; BC.color = f; BD.color = f; BE.color = f; BF.color = t
+		CA.color = t; CB.color = t; CC.color = t; CD.color = t; CE.color = t; CF.color = t
+		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = t
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "2":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = t; AC.color = f; AD.color = f; AE.color = f; AF.color = t
+		BA.color = t; BB.color = f; BC.color = f; BD.color = f; BE.color = t; BF.color = t
+		CA.color = t; CB.color = f; CC.color = f; CD.color = t; CE.color = f; CF.color = t
+		DA.color = t; DB.color = f; DC.color = t; DD.color = f; DE.color = f; DF.color = t
+		EA.color = f; EB.color = t; EC.color = f; ED.color = f; EE.color = f; EF.color = t
 	if value == "3":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = t; AC.color = f; AD.color = f; AE.color = t; AF.color = f
+		BA.color = t; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = t
+		CA.color = t; CB.color = f; CC.color = t; CD.color = f; CE.color = f; CF.color = t
+		DA.color = t; DB.color = f; DC.color = t; DD.color = f; DE.color = f; DF.color = t
+		EA.color = f; EB.color = t; EC.color = f; ED.color = t; EE.color = t; EF.color = f
 	if value == "4":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = f; AC.color = f; AD.color = t; AE.color = f; AF.color = f
+		BA.color = f; BB.color = f; BC.color = t; BD.color = t; BE.color = f; BF.color = f
+		CA.color = f; CB.color = t; CC.color = f; CD.color = t; CE.color = f; CF.color = f
+		DA.color = t; DB.color = t; DC.color = t; DD.color = t; DE.color = t; DF.color = t
+		EA.color = f; EB.color = f; EC.color = f; ED.color = t; EE.color = f; EF.color = f
 	if value == "5":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = t; AB.color = t; AC.color = t; AD.color = f; AE.color = t; AF.color = f
+		BA.color = t; BB.color = f; BC.color = t; BD.color = f; BE.color = f; BF.color = t
+		CA.color = t; CB.color = f; CC.color = t; CD.color = f; CE.color = f; CF.color = t
+		DA.color = t; DB.color = f; DC.color = t; DD.color = f; DE.color = f; DF.color = t
+		EA.color = t; EB.color = f; EC.color = f; ED.color = t; EE.color = t; EF.color = f
 	if value == "6":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = t; AC.color = t; AD.color = t; AE.color = t; AF.color = f
+		BA.color = t; BB.color = f; BC.color = t; BD.color = f; BE.color = f; BF.color = t
+		CA.color = t; CB.color = f; CC.color = t; CD.color = f; CE.color = f; CF.color = t
+		DA.color = t; DB.color = f; DC.color = t; DD.color = f; DE.color = f; DF.color = t
+		EA.color = f; EB.color = f; EC.color = f; ED.color = t; EE.color = t; EF.color = f
 	if value == "7":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = t; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = t
+		BA.color = t; BB.color = f; BC.color = f; BD.color = f; BE.color = t; BF.color = f
+		CA.color = t; CB.color = f; CC.color = f; CD.color = t; CE.color = f; CF.color = f
+		DA.color = t; DB.color = f; DC.color = t; DD.color = f; DE.color = f; DF.color = f
+		EA.color = t; EB.color = t; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "8":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = t; AC.color = f; AD.color = t; AE.color = t; AF.color = f
+		BA.color = t; BB.color = f; BC.color = t; BD.color = f; BE.color = f; BF.color = t
+		CA.color = t; CB.color = f; CC.color = t; CD.color = f; CE.color = f; CF.color = t
+		DA.color = t; DB.color = f; DC.color = t; DD.color = f; DE.color = f; DF.color = t
+		EA.color = f; EB.color = t; EC.color = f; ED.color = t; EE.color = t; EF.color = f
 	if value == "9":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = t; AC.color = t; AD.color = f; AE.color = f; AF.color = f
+		BA.color = t; BB.color = f; BC.color = f; BD.color = t; BE.color = f; BF.color = t
+		CA.color = t; CB.color = f; CC.color = f; CD.color = t; CE.color = f; CF.color = t
+		DA.color = t; DB.color = f; DC.color = f; DD.color = t; DE.color = f; DF.color = t
+		EA.color = f; EB.color = t; EC.color = t; ED.color = t; EE.color = t; EF.color = f
 	if value == "!":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
 		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		CA.color = t; CB.color = t; CC.color = t; CD.color = t; CE.color = f; CF.color = t
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "@":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = t; AC.color = t; AD.color = t; AE.color = t; AF.color = f
+		BA.color = t; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = t
+		CA.color = t; CB.color = f; CC.color = t; CD.color = t; CE.color = f; CF.color = t
+		DA.color = t; DB.color = f; DC.color = f; DD.color = t; DE.color = f; DF.color = t
+		EA.color = f; EB.color = t; EC.color = t; ED.color = f; EE.color = f; EF.color = f
 	if value == "#":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = f; AC.color = t; AD.color = f; AE.color = t; AF.color = f
+		BA.color = f; BB.color = t; BC.color = t; BD.color = t; BE.color = t; BF.color = t
+		CA.color = f; CB.color = f; CC.color = t; CD.color = f; CE.color = t; CF.color = f
+		DA.color = f; DB.color = t; DC.color = t; DD.color = t; DE.color = t; DF.color = t
+		EA.color = f; EB.color = f; EC.color = t; ED.color = f; EE.color = t; EF.color = f
 	if value == "$":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = f; AC.color = t; AD.color = f; AE.color = f; AF.color = t
+		BA.color = f; BB.color = t; BC.color = f; BD.color = t; BE.color = f; BF.color = t
+		CA.color = t; CB.color = t; CC.color = t; CD.color = t; CE.color = t; CF.color = t
+		DA.color = f; DB.color = t; DC.color = f; DD.color = t; DE.color = f; DF.color = t
+		EA.color = f; EB.color = t; EC.color = f; ED.color = f; EE.color = t; EF.color = f
 	if value == "%":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = t; AB.color = t; AC.color = f; AD.color = f; AE.color = f; AF.color = t
+		BA.color = t; BB.color = t; BC.color = f; BD.color = f; BE.color = t; BF.color = f
+		CA.color = f; CB.color = f; CC.color = t; CD.color = t; CE.color = f; CF.color = f
+		DA.color = f; DB.color = t; DC.color = f; DD.color = f; DE.color = t; DF.color = t
+		EA.color = t; EB.color = f; EC.color = f; ED.color = f; EE.color = t; EF.color = t
 	if value == "^":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		BA.color = f; BB.color = t; BC.color = f; BD.color = f; BE.color = f; BF.color = f
+		CA.color = t; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		DA.color = f; DB.color = t; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "&":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = t; AC.color = f; AD.color = t; AE.color = t; AF.color = f
+		BA.color = t; BB.color = f; BC.color = t; BD.color = f; BE.color = f; BF.color = t
+		CA.color = f; CB.color = t; CC.color = t; CD.color = t; CE.color = f; CF.color = t
+		DA.color = f; DB.color = f; DC.color = f; DD.color = t; DE.color = t; DF.color = f
+		EA.color = f; EB.color = f; EC.color = t; ED.color = f; EE.color = f; EF.color = t
 	if value == "*":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		BA.color = f; BB.color = t; BC.color = f; BD.color = t; BE.color = f; BF.color = f
+		CA.color = t; CB.color = t; CC.color = t; CD.color = f; CE.color = f; CF.color = f
+		DA.color = f; DB.color = t; DC.color = f; DD.color = t; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "(":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		BA.color = f; BB.color = t; BC.color = t; BD.color = t; BE.color = t; BF.color = f
+		CA.color = t; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = t
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == ")":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
 		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		CA.color = t; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = t
+		DA.color = f; DB.color = t; DC.color = t; DD.color = t; DE.color = t; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "[":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		BA.color = t; BB.color = t; BC.color = t; BD.color = t; BE.color = t; BF.color = t
+		CA.color = t; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = t
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "]":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
 		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		CA.color = t; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = t
+		DA.color = t; DB.color = t; DC.color = t; DD.color = t; DE.color = t; DF.color = t
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "{":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		AA.color = f; AB.color = f; AC.color = t; AD.color = t; AE.color = f; AF.color = f
+		BA.color = f; BB.color = t; BC.color = t; BD.color = t; BE.color = t; BF.color = f
+		CA.color = t; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = t
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "}":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
 		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		CA.color = t; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = t
+		DA.color = f; DB.color = t; DC.color = t; DD.color = t; DE.color = t; DF.color = f
+		EA.color = f; EB.color = f; EC.color = t; ED.color = t; EE.color = f; EF.color = f
 	if value == "~":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = f; AC.color = f; AD.color = t; AE.color = t; AF.color = f
+		BA.color = f; BB.color = f; BC.color = t; BD.color = f; BE.color = f; BF.color = f
+		CA.color = f; CB.color = f; CC.color = f; CD.color = t; CE.color = f; CF.color = f
+		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = t; DF.color = f
+		EA.color = f; EB.color = f; EC.color = t; ED.color = t; EE.color = f; EF.color = f
 	if value == "`":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
+		AA.color = t; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
+		BA.color = f; BB.color = t; BC.color = f; BD.color = f; BE.color = f; BF.color = f
 		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "_":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = t
+		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = t
+		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = t
+		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = t
+		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = t
 	if value == "-":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
 		BA.color = f; BB.color = f; BC.color = f; BD.color = t; BE.color = f; BF.color = f
@@ -529,79 +529,79 @@ func _process(delta: float) -> void:
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "+":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		BA.color = f; BB.color = f; BC.color = f; BD.color = t; BE.color = f; BF.color = f
+		CA.color = f; CB.color = f; CC.color = t; CD.color = t; CE.color = t; CF.color = f
+		DA.color = f; DB.color = f; DC.color = f; DD.color = t; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "=":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		BA.color = f; BB.color = f; BC.color = t; BD.color = f; BE.color = t; BF.color = f
+		CA.color = f; CB.color = f; CC.color = t; CD.color = f; CE.color = t; CF.color = f
+		DA.color = f; DB.color = f; DC.color = t; DD.color = f; DE.color = t; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == ":":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
 		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		CA.color = f; CB.color = t; CC.color = f; CD.color = f; CE.color = t; CF.color = f
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == ";":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = t
+		CA.color = f; CB.color = t; CC.color = f; CD.color = f; CE.color = t; CF.color = f
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "'":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
 		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		CA.color = t; CB.color = t; CC.color = f; CD.color = f; CE.color = f; CF.color = f
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == '"':
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
+		BA.color = t; BB.color = t; BC.color = f; BD.color = f; BE.color = f; BF.color = f
 		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		DA.color = t; DB.color = t; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "|":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
 		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		CA.color = t; CB.color = t; CC.color = t; CD.color = t; CE.color = t; CF.color = t
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == ",":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = t
+		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = t; CF.color = f
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == ".":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
 		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
+		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = t
 		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "<":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		BA.color = f; BB.color = f; BC.color = f; BD.color = t; BE.color = f; BF.color = f
+		CA.color = f; CB.color = f; CC.color = t; CD.color = f; CE.color = t; CF.color = f
+		DA.color = f; DB.color = t; DC.color = f; DD.color = f; DE.color = f; DF.color = t
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == ">":
 		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		BA.color = f; BB.color = t; BC.color = f; BD.color = f; BE.color = f; BF.color = t
+		CA.color = f; CB.color = f; CC.color = t; CD.color = f; CE.color = t; CF.color = f
+		DA.color = f; DB.color = f; DC.color = f; DD.color = t; DE.color = f; DF.color = f
 		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "?":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = t; AC.color = f; AD.color = f; AE.color = f; AF.color = f
+		BA.color = t; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
+		CA.color = t; CB.color = f; CC.color = t; CD.color = t; CE.color = f; CF.color = t
+		DA.color = t; DB.color = f; DC.color = t; DD.color = f; DE.color = f; DF.color = f
+		EA.color = f; EB.color = t; EC.color = f; ED.color = f; EE.color = f; EF.color = f
 	if value == "/":
-		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = f
-		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = f; BF.color = f
-		CA.color = f; CB.color = f; CC.color = f; CD.color = f; CE.color = f; CF.color = f
-		DA.color = f; DB.color = f; DC.color = f; DD.color = f; DE.color = f; DF.color = f
-		EA.color = f; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f
+		AA.color = f; AB.color = f; AC.color = f; AD.color = f; AE.color = f; AF.color = t
+		BA.color = f; BB.color = f; BC.color = f; BD.color = f; BE.color = t; BF.color = f
+		CA.color = f; CB.color = f; CC.color = t; CD.color = t; CE.color = f; CF.color = f
+		DA.color = f; DB.color = t; DC.color = f; DD.color = f; DE.color = f; DF.color = f
+		EA.color = t; EB.color = f; EC.color = f; ED.color = f; EE.color = f; EF.color = f

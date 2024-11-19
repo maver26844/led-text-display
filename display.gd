@@ -25,7 +25,7 @@ func scroll():
 	var children = get_children()
 	if input.length() > children.size() and timer == false:
 		if not spaces:
-			input += "   "
+			input += "     "
 			spaces = true
 		input = input.substr(1, input.length() - 1) + input[0]
 
