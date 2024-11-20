@@ -12,6 +12,7 @@ color = Color(0, 0.0470588, 0, 1)
 
 [node name="Bar" type="Node2D" parent="."]
 script = ExtResource("1_qxcns")
+input = "hayden is a poopyhead"
 
 [node name="Block1" parent="Bar" instance=ExtResource("1_gosk3")]
 

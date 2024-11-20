@@ -1,40 +1,35 @@
 extends Node2D
 
-var input = ""
+@export var input = ""
+@export var scrollDelay = 0.175
+@export var startDelay = 1.0
 var scrollCount = 0
 
-var defined = false
-var spaces = false
+var inputDefined = false
+var spacesAdded = false
 
-var timer = false
-var initialTimer = false
-var returnTimer = false
-
-@export var scrollDelay = 0.2
-@export var initialDelay = 1.0
-@export var returnDelay = 1.0
+var timer = false; var initialTimer = false; var returnTimer = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
 
 func update_display():
-	if not defined:
-		input = "Yo waddup, this is my ultimate super omega text."
+	if not inputDefined:
 		var lastInput = input
-		defined = true
-	#if defined == true: # code that was supposed to change the text if the original text changed
+		inputDefined = true
+	#if inputDefined == true: # code that was supposed to change the text if the original text changed
 		#var lastInput = input
 		#for letter in input:
 			#if letter not in lastInput:
-				#defined = false
+				#inputDefined = false
 
 func scroll():
 	var children = get_children()
 	if input.length() > children.size() and timer == false:
-		if not spaces:
+		if not spacesAdded:
 			input += "     "
-			spaces = true
+			spacesAdded = true
 		input = input.substr(1, input.length() - 1) + input[0]
 		scrollCount += 1
 
@@ -52,11 +47,11 @@ func _process(delta: float) -> void:
 	update_display()
 	
 	if not initialTimer:
-		await get_tree().create_timer(initialDelay).timeout
+		await get_tree().create_timer(startDelay).timeout
 		initialTimer = true
 	if not returnTimer and scrollCount >= input.length():
 		returnTimer = true
-		await get_tree().create_timer(returnDelay).timeout
+		await get_tree().create_timer(startDelay).timeout
 		scrollCount = 0
 		returnTimer = false
 	if not timer:
